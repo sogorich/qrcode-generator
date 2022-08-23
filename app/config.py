@@ -1,0 +1,8 @@
+# Starlette settings
+
+DEBUG_MODE = True
+
+STATIC_FILES_DIRNAME = 'static'
+PATH_TO_IMAGES = STATIC_FILES_DIRNAME + '/images'
+
+BASE_SLEEP_FOR_BG_TASKS = 10
